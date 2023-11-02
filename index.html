@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>
+            Currency Convertor
+        </title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <body>
+		    <div class="logo">
+               <h1 align="center">Currency Convertor</h1>
+            </div> 
+            <table align="center" border="1">
+                
+                <tr align="center">
+                    <th>FROM</th>
+                   <td>
+                        <select id = "from" class="from">
+                        <option value = "INR">INDIA</option>
+                        <option value = "USD">AMERICA</option>
+                        <option value = "AUD">AUSTRALIA</option>
+                        <option value = "AFN">Afghanistan </option>
+                        <option value = "ALL">Albania </option>
+                        <option value = "AMD">Armenia </option>
+                        <option value = "AOA">Angola </option>
+                        <option value = "ARS">Argentina</option>
+                        <option value = "AWG">Aruba</option>
+                        <option value = "AZN">Azerbaijan</option>
+					    <option value = "BDT">Bangladesh </option>
+                        <option value = "BTN">Bhutan</option>                       
+                        <option value = "BRL">Brazil</option>
+                        <option value = "KHR">Cambodia</option>
+                        <option value = "CAD">Canada</option>
+                        <option value = "COP">Colombia</option>
+                        <option value = "DKK">Denmark</option>
+                        <option value = "EGP">Egypt</option>
+                        <option value = "ETB">Ethiopia</option>
+                        <option value = "EUR">Euro</option>
+                        <option value = "GEL">Georgia </option>
+                        <option value = "DMK">Germany </option>
+                        <option value = "HKD">Hong Kong</option>
+                        <option value = "HUF">Hungary </option>
+                        <option value = "ISK">Iceland </option>
+                        <option value = "IDR">Indonesia</option>
+                        <option value = "IRR">Iran </option>
+                        <option value = "ITL">Italy </option>
+                        <option value = "JPY">Japan </option>
+                        <option value = "JOD">Jordan  </option>
+                        <option value = "KWD">Kuwait </option>
+                        <option value = "MYR">Malaysia</option>
+                        <option value = "MXN">Mexico</option>
+                        <option value = "MAD">Morocco</option>
+                        <option value = "NPR">Nepal</option>
+						
+						
+                        </select>
+                    </td>
+                </tr>
+
+               <tr align="center">
+                    <th>TO</th>
+                    <td>
+                        <select id = "to" class="to">
+                        <option value = "INR">INDIA</option>
+                        <option value = "USD">AMERICA</option>
+                        <option value = "AUD">AUSTRALIA</option>
+                        <option value = "AFN">Afghanistan </option>
+                        <option value = "ALL">Albania </option>
+                        <option value = "AMD">Armenia </option>
+                        <option value = "AOA">Angola </option>
+                        <option value = "ARS">Argentina</option>
+                        <option value = "AWG">Aruba</option>
+                        <option value = "AZN">Azerbaijan</option>
+					    <option value = "BDT">Bangladesh </option>
+                        <option value = "BTN">Bhutan</option>                       
+                        <option value = "BRL">Brazil</option>
+                        <option value = "KHR">Cambodia</option>
+                        <option value = "CAD">Canada</option>
+                        <option value = "COP">Colombia</option>
+                        <option value = "DKK">Denmark</option>
+                        <option value = "EGP">Egypt</option>
+                        <option value = "ETB">Ethiopia</option>
+                        <option value = "EUR">Euro</option>
+                        <option value = "GEL">Georgia </option>
+                        <option value = "DMK">Germany </option>
+                        <option value = "HKD">Hong Kong</option>
+                        <option value = "HUF">Hungary </option>
+                        <option value = "ISK">Iceland </option>
+                        <option value = "IDR">Indonesia</option>
+                        <option value = "IRR">Iran </option>
+                        <option value = "ITL">Italy </option>
+                        <option value = "JPY">Japan </option>
+                        <option value = "JOD">Jordan  </option>
+                        <option value = "KWD">Kuwait </option>
+                        <option value = "MYR">Malaysia</option>
+                        <option value = "MXN">Mexico</option>
+                        <option value = "MAD">Morocco</option>
+                        <option value = "NPR">Nepal</option>
+						
+						
+                        </select>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <th>
+                        Enter Amount :
+                    </th>
+                    <td>
+                        <input type ="number" id = "amt" class="amt">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th colspan="2"><button onclick="convert()" class="button">CONVERT</button></th>
+					
+                </tr>
+				    <td><span id="curr" align="right"></span></td>
+				    <td id = "result"></td>
+					
+				
+            </table>
+
+            <script src="assets/JS/main.js"></script>
+
+
+
+        </body>
+    </head>
+</html>

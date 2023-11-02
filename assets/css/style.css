@@ -1,0 +1,53 @@
+.logo{
+	color:#36DCE9;
+	font-size:30px;
+	text-align:center;
+	background:#E8F2F3;
+}
+
+
+
+table{
+    height:50%;
+	width:50%;
+	font-size:30px;
+	background:#F0F0EC;
+}
+
+.button{
+	background-color:#36DCE9;
+	height:6s0%;
+	width:40%;
+	font-size:30px;
+	cursor: pointer;
+}
+.button:hover{
+    background:#D0D4D6;
+}
+
+.to{
+	height:50%;
+	width:50%;
+	font-size:30px;
+	position:relative;
+	text-align:center;
+}
+
+.from{
+	height:50%;
+	width:50%;
+	font-size:30px;
+	text-align:center;
+}
+
+.amt{
+	height:50%;
+	width:50%;
+	font-size:30px;
+	text-align:center;
+}
+
+#result{
+	font-size:40px;
+	text-align:center;
+}
